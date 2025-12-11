@@ -4,7 +4,7 @@
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "react-dom": "^19.2.1",
-    "snail-plugin-api": "1.5.0"
+    "snail-plugin-api": "1.5.2"
   },
   "scripts": {
     "build": "bun build ./src/index.tsx --outdir=dist/snail-plugin-manager --bundle --minify "

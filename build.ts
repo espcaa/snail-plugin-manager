@@ -1,10 +1,8 @@
-import { build } from "bun";
-
 async function run() {
   await Bun.build({
     entrypoints: ["./src/index.tsx"],
     outdir: "./dist/snail-plugin-manager",
-    minify: false,
+    minify: true,
     target: "browser",
     format: "iife",
     external: ["react", "react-dom"],
